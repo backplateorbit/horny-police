@@ -8,7 +8,7 @@ RUN apt-get install protobuf-compiler -y
 
 RUN pip install --upgrade pip
 RUN pip install cmake
-RUN pip install nudenet celery tensorflow numpy protobuf typing-extensions ecs_logging
+RUN pip install nudenet tensorflow numpy protobuf typing-extensions ecs_logging
 RUN pip install --upgrade setuptools
 RUN pip install onnxruntime
 RUN pip install discord.py
