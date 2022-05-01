@@ -15,5 +15,5 @@ NSFW content moderation bot for Discord.
 > [Their blog can be found here](http://bpraneeth.com/).
 
 ## Notes
-### INVALID_PROTOBUF error.
+### ([Issue #1](https://github.com/backplateorbit/horny-police/issues/1)) INVALID_PROTOBUF error.
 The `ADD` directives in the Docker file may fail with a 401 from Github. This is because you need to be logged in to access NSFW repositories on Github. To mitigate this, use the links in the Dockerfile to download the model files yourself, and tweak the Dockerfile to use the `COPY` directive to copy them in instead of `ADD` which copies them from a remote URL.
