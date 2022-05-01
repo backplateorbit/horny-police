@@ -4,13 +4,9 @@ import os
 import pathlib
 
 import discord
-import dotenv
 
 from horny_police import detection
 from horny_police import logging
-
-dotenv.load_dotenv()
-
 
 class HornyPoliceClient(discord.Client):
     logger = logging.get_logger()
@@ -69,6 +65,7 @@ class HornyPoliceClient(discord.Client):
 
             result = detection.detect_nsfw(attachment_file_path)
 
+            # through testing, this feels about right as a threshold.
             if result["unsafe"] >= 0.40:
                 HornyPoliceClient.logger.info(
                     f"file {attachment.filename} likely nsfw, deleting"

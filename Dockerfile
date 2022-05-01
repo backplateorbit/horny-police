@@ -12,7 +12,6 @@ RUN pip install nudenet tensorflow numpy protobuf typing-extensions ecs_logging
 RUN pip install --upgrade setuptools
 RUN pip install onnxruntime
 RUN pip install discord.py
-RUN pip install python-dotenv
 RUN pip install ecs_logging
 
 WORKDIR /workspace
