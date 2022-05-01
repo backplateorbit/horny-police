@@ -80,7 +80,7 @@ class HornyPoliceClient(discord.Client):
                 )
                 await message.delete()
 
-                
+                attachment_file_path.unlink()
 
 
 
