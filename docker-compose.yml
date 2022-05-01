@@ -1,0 +1,7 @@
+services:
+  horny-police-bot:
+    container_name: horny-police-bot
+    build: .
+    environment:
+      - CLIENT_TOKEN=<YOUR_CLIENT_TOKEN>
+      - TEMP_SAVE_DIRECTORY=<SOMEWHERE_TO_SAVE_FILES>
