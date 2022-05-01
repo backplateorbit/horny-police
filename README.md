@@ -1,3 +1,5 @@
+![Horny Police Image Banner](./reply_image.png)
+
 # horny_police
 NSFW content moderation bot for Discord.
 
