@@ -10,7 +10,7 @@ NSFW content moderation bot for Discord.
 ### @bedapudi6788
 > The bot uses their NudeNet model for classifying NSFW content. 
 >
->[Model can be found here](https://github.com/notAI-tech/NudeNet). 
+> [Model can be found here](https://github.com/notAI-tech/NudeNet). 
 >
 > [Their blog can be found here](http://bpraneeth.com/).
 
