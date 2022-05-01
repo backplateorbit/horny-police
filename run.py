@@ -1,11 +1,8 @@
 import os
 
-import dotenv
-
 from horny_police import client
 from horny_police import logging
 
-dotenv.load_dotenv()
 
 def main() -> None:
     logger = logging.get_logger()
